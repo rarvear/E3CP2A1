@@ -1,0 +1,154 @@
+
+body{
+	box-sizing: border-box;
+}
+.contenedor{
+	background-color: #EAEAEA;
+	width: 80vw;
+	margin: 0;
+	padding: 10vh 5vh;
+	position: relative;
+	float: left;
+}
+.fotoimg{
+	border-radius: 50%;
+	border: solid #EAEAEA 5px;
+	position: absolute;
+	top: 5vh;
+	left: 45%;
+	width: 30vh;
+	margin: 0 auto;
+}
+.wid40{
+	width: 40%;
+}
+.wid60{
+	width: 60%;
+}
+.wid10{
+	width: 10%;
+}
+.wid20, .wid22{
+	width: 20%;
+}
+.wid30{
+	width: 30%;
+}
+.wid50{
+	width: 50%;
+}
+.wid70{
+	width: 70%;
+}
+.wid80{
+	width: 80%;
+}
+.wid90{
+	width: 90%;
+}
+.wid99{
+	width: 99%;
+}
+.wid100{
+	width: 100%;
+}
+.wid10, .wid20, .wid22, .wid30, .wid40, .wid50, .wid60, .wid70, .wid80, .wid90, .wid99, .wid100{
+	float: left;
+}
+.titleblack{
+	color: black;
+}
+.titlewhite{
+	color: white;
+}
+
+section{
+	width: 100%;
+	padding: 1%;
+	margin: 0;
+	clear: left;
+}
+section h1{
+	padding: 10px 0px;
+	color: #FF4900;
+	text-transform: uppercase;	
+}
+span{
+	color: #FF4900;
+	text-transform: uppercase;
+}
+h1{
+	font-size: 0.9em;
+	margin: 0;
+	width: 100%;
+}
+p{
+	font-size: 0.9em;
+}
+li{
+	font-size: 0.8em;
+}
+header{
+	padding-top: 30vh;
+	text-transform: uppercase;
+	background-color: white;
+	margin: 0px auto;
+	text-align: center;
+	border-bottom: solid #EAEAEA;
+	padding-bottom: 5vh;
+}
+header h1{
+	display: inline-block;
+}
+article{
+	background-color: white;
+
+}
+.bgcgris{
+	background-color: #EAEAEA;
+	margin-top: 2%;
+}
+.bgcorange{
+	background-color: #FF4900;
+	clear: left;
+	color: white;
+	margin: 1px;
+}
+.bgcwine{
+	background-color: #A00053;
+	margin-left: 1px;
+	color: white;
+	font-size: 0.8em;
+}
+.break{
+	border-bottom: solid #EAEAEA;
+	padding-bottom: 5px;
+	float: left;
+
+	background-color: white;
+	box-sizing: border-box;
+}
+.star{
+	width: 80%;
+	padding-top: 4%;
+}
+footer{
+	background-color: white;
+	clear: left;
+	text-align: right;
+	padding-top: 2px;
+	padding-bottom: 3%;
+	font-size: 0.8em;
+}
+
+@media(max-width: 480px){ 
+			.wid10, .wid20, .wid40, .wid60{
+			clear: left;
+			width: 100%;
+			box-sizing: border-box;
+			padding: 3%;
+			}
+			.titleblack{
+			clear: left;
+			}
+}
